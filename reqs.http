@@ -1,4 +1,4 @@
-@server = https://glowing-capybara-g45ppgjq7rwh9rgj-8080.app.github.dev
+@server = https://cuddly-acorn-v6g55x9vqgp2jjw-8080.app.github.dev
 ###
 GET {{server}}/api/instrumentos/2
 ###

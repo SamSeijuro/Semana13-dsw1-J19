@@ -25,7 +25,7 @@ class HomePage extends React.Component {
 		return (
 			<>
 			<h1>Como es posible este suceso..!!!</h1>
-   			<h2>PIPIPIPIPIPI..!!</h2>
+   			<h2>Tablas de Instrumentos y Musicos</h2>
 			<Titulo entidad="Instrumentos" emoji="🎸"/>
 			<InstrumentoList instrumentos={this.state.instrumentos}/>
 			<Link to="/nuevo-instrumento">Nuevo Instrumento</Link>
