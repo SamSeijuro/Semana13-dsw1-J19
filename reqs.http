@@ -1,0 +1,15 @@
+@server = https://glowing-capybara-g45ppgjq7rwh9rgj-8080.app.github.dev
+###
+GET {{server}}/api/instrumentos/2
+###
+POST {{server}}/api/instrumentos
+Content-Type: application/json
+
+{"nombre": "Quena", "categoria": "Viento", "descripcion": "Como una flauta"}
+###
+GET {{server}}/api/musicos
+###
+POST {{server}}/api/musicos
+Content-Type: application/json
+
+{"nombre": "Joaquín"}
