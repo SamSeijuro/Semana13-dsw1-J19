@@ -63,6 +63,7 @@ class InstrumentoList extends React.Component{
 						<th>Nombre</th>
 						<th>Categoria</th>
 						<th>Descripcion</th>
+						<th>Editar</th>
 					</tr>
 					{instrumentos}
 				</tbody>
@@ -102,6 +103,8 @@ class Instrumento extends React.Component{
 				<td>
 					<Link to={"/ver-instrumento/" + id}>Ver</Link>
 				</td>
+				<td><Link to={"/editar-instrumento/" + id}>Editar</Link></td>
+				
 			</tr>
 		)
 	}
